@@ -25,6 +25,7 @@
 ## 快速开始
 
 详细部署文档请查阅：<https://docs.halo.run>
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=unless-stopped halohub/halo:1.6.0
 
 ## 在线体验
 
