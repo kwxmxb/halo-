@@ -28,7 +28,7 @@
 因为2.0.0和2.0.1新版本改了很多东西可能有bug 还有社区主题与插件存在兼容性问题问题等待解决
 确保已安装docker环境 复制下面命令直接跑访问8090端口，反向代理即可正常使用，然后申请ssl证书保证网站安全
 ```bash
-docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=unless-stopped halohub/halo:1.6.1 </a>
+docker run -it -d --name halo -p 8090:8090 -v ~/.halo:/root/.halo --restart=unless-stopped halohub/halo:1.6.1 
 ```
 ## 在线体验
 
